@@ -1,0 +1,42 @@
+{
+  "private": true,
+  "name": "hello-typescript",
+  "scripts": {
+    "start": "dumi dev",
+    "build": "dumi build",
+    "surge": "npm run build && surge dist --domain hello-node.surge.sh ",
+    "create": "node ./scripts/create.js",
+    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiandanaiyici/hello-node",
+    "branch": "master",
+    "platform": "github"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,less,md,json}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
+    ]
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.13.5",
+    "dumi": "^1.0.9",
+    "lint-staged": "^10.0.7",
+    "prettier": "^1.19.1",
+    "yorkie": "^2.0.0"
+  },
+  "dependencies": {
+    "antd": "^4.24.1",
+    "enquire-js": "^0.2.1"
+  }
+}
