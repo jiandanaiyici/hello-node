@@ -4,5 +4,3 @@ nav:
   title: NPM
   order: 2
 ---
-
-### 可读源数据

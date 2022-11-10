@@ -5,7 +5,9 @@ nav:
   order: 4
 ---
 
-[Learn Node](https://nodejs.dev/)
+- [Learn Node](https://nodejs.dev/)
+- [Learn Node.js: A Beginner's Guide](https://stackabuse.com/learn-node-js-a-beginners-guide/)
+- [Generating PDF Files in Node.js with PDFKit](https://stackabuse.com/generating-pdf-files-in-node-js-with-pdfkit/)
 
 ### 包
 
