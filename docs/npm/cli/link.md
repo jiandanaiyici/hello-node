@@ -1,14 +1,12 @@
 ---
-title: npm-link
-nav:
-  title: NPM
+title: npm link
+group:
+  title: CLI
 ---
-
-# npm-link
 
 > 试想一下在现在的项目管理中大多使用的包基于 `npm` 进行管理, 当使用某一个包或者开发一个包有些许问题时, 可以通过 `npm link` 的方法链接到全局的 `node_modules`下
 
-[根据文档介绍](https://docs.npmjs.com/cli/v6/commands/npm-link): 包名是根据 `package.json`中的 `name`字段指定, 而不是通过文件夹名称
+[根据文档介绍](https://docs.npmjs.com/cli/v9/commands/npm-link): 包名是根据 `package.json`中的 `name`字段指定, 而不是通过文件夹名称
 
 ### 示例
 

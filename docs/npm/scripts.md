@@ -1,3 +1,6 @@
 ---
-title: Script 执行脚本
+title: npm scripts
+order: 3
+nav:
+  title: NPM
 ---

@@ -4,7 +4,7 @@ title: NPM 源管理
 
 ### 配置安装源
 
-- **方法一**: [参考]()
+- **方法一**:
 
 ```bash
 # 查看安装配置源
@@ -27,9 +27,35 @@ electron_mirror=https://npm.taobao.org/mirrors/electron/
 
 - **方法一:** 通过安装源管理包 [nrm](https://github.com/Pana/nrm) 进行快速切换
 
+```bash
+npm install -g nrm
+
+# 查看所有镜像配置
+nrm ls
+
+```
+
 - 方法二: 通过配置 npmrc 文件
 
 ```bash
 registry=https://registry.npm.taobao.org/
 package-lock=false
 ```
+
+---
+
+为特定包指定源
+
+```bash
+npm config set '<package>:registry' xxxx
+```
+
+常用的几个源
+
+### 参考
+
+- [npm 中国镜像](https://npmmirror.com/)
+- [working with npm registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry)
+- [npm-registry](https://www.npmjs.com/package/npm-registry)
+- [npm-config-china](https://www.npmjs.com/package/npm-config-china)
+- [Verdaccio](https://verdaccio.org/zh-CN/): 一个基于 Node.js 的轻量级私有仓库
