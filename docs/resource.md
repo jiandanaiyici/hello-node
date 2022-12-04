@@ -1,6 +1,5 @@
 ---
 title: 资源汇总
-toc: menu
 nav:
   title: 资源汇总
   order: 4

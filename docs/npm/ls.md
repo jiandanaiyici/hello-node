@@ -1,5 +1,6 @@
 ---
 title: npm ls
+toc: null
 group:
   title: CLI
 ---

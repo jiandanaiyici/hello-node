@@ -1,10 +1,9 @@
 ---
 title: NPM 源管理
+toc: null
 ---
 
 ### 配置安装源
-
-- **方法一**:
 
 ```bash
 # 查看安装配置源
@@ -25,24 +24,21 @@ sass_binary_site=https://npm.taobao.org/mirrors/node-sass/
 electron_mirror=https://npm.taobao.org/mirrors/electron/
 ```
 
-- **方法一:** 通过安装源管理包 [nrm](https://github.com/Pana/nrm) 进行快速切换
+- <Badge>**方法一**</Badge> 通过安装源管理包 [nrm](https://github.com/Pana/nrm) 进行快速切换
 
 ```bash
 npm install -g nrm
 
 # 查看所有镜像配置
 nrm ls
-
 ```
 
-- 方法二: 通过配置 npmrc 文件
+- <Badge>**方法二**</Badge> 通过配置 npmrc 文件
 
 ```bash
 registry=https://registry.npm.taobao.org/
 package-lock=false
 ```
-
----
 
 为特定包指定源
 

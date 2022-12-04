@@ -1,10 +1,9 @@
 ---
 title: 发布包
+toc: null
 ---
 
 发布时需配置发布的文件 `package.json` `files`
-
----
 
 ### 参考
 

@@ -1,15 +1,17 @@
-# Hello Node
+# hello-node
 
-## Getting Started
+A static site base on [dumi](https://d.umijs.org).
+
+## Development
 
 ```bash
-# Install dependencies,
-$ npm i
+# install dependencies
+$ npm install
 
-# Start the dev server,
+# start dev server
 $ npm start
 
-# Build site app,
+# build docs
 $ npm run build
 
 # Deploy

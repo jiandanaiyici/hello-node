@@ -1,5 +1,6 @@
 ---
 title: npm config
+toc: null
 group:
   title: CLI
 ---
@@ -63,8 +64,6 @@ npm config edit --global
 
 - [json](https://docs.npmjs.com/cli/v9/commands/npm-config#json): 是否以`JSON`格式输出
 - [global](https://docs.npmjs.com/cli/v9/commands/npm-config#global): 全局
-
----
 
 ### 关联
 
