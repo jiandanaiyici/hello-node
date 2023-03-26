@@ -9,9 +9,6 @@
     "surge": "npm run build && surge dist --domain hello-node.surge.sh",
     "prepare": "dumi setup"
   },
-  "authors": [
-    "jiandanaiyici"
-  ],
   "license": "MIT",
   "commitlint": {
     "extends": [
