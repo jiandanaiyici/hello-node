@@ -1,8 +1,6 @@
 ---
 title: npm config
 toc: null
-group:
-  title: CLI
 ---
 
 [npm config](): 管理 `npm` 配置文件, 通过从 命令行、环境变量 或 [npmrc](https://docs.npmjs.com/cli/v9/configuring-npm/npmrc) 文件以及某些情况下从 `package.json`文件中获取配置信息

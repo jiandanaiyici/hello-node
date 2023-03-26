@@ -1,8 +1,6 @@
 ---
 title: npm ls
 toc: null
-group:
-  title: CLI
 ---
 
 [npm ls](https://docs.npmjs.com/cli/v9/commands/npm-ls): 列出已安装的包

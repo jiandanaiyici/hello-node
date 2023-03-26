@@ -17,3 +17,7 @@ $ npm run build
 # Deploy
 npm run surge
 ```
+
+# todo
+
+- github 自动化部署

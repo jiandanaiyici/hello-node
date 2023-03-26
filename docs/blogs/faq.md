@@ -32,3 +32,12 @@ npm ls <package> --depth 0
 npm install -g rimraf
 rimraf node_modules
 ```
+
+### node-gyp
+
+- [node-gyp](https://github.com/nodejs/node-gyp)
+
+```bash
+# 设置python 环境变量
+npm install --global --production windows-build-tools
+```
