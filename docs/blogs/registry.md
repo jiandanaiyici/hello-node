@@ -1,5 +1,5 @@
 ---
-title: NPM 源管理
+title: 源管理
 toc: null
 ---
 
@@ -47,6 +47,33 @@ npm config set '<package>:registry' xxxx
 ```
 
 常用的几个源
+
+```bash
+npm install -g nrm
+
+# 查看支持切换的源配置
+nrm ls
+* npm -------- https://registry.npmjs.org/
+  yarn ------- https://registry.yarnpkg.com/
+  cnpm ------- http://r.cnpmjs.org/
+  taobao ----- https://registry.npm.taobao.org/
+  nj --------- https://registry.nodejitsu.com/
+  npmMirror -- https://skimdb.npmjs.com/registry/
+  edunpm ----- http://registry.enpmjs.org/
+
+# 切换cnpm 源
+nrm use cnpm
+```
+
+[更多命令查看](https://github.com/Pana/nrm#usage)
+
+### yarn
+
+```bash
+registry "https://registry.npm.taobao.org/"
+sass_binary_site "https://npm.taobao.org/mirrors/node-sass/"
+electron_mirror "https://npm.taobao.org/mirrors/electron/"
+```
 
 ### 参考
 
