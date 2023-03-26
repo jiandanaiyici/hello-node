@@ -6,8 +6,8 @@
     "start": "npm run dev",
     "dev": "dumi dev",
     "build": "dumi build",
-    "surge": "npm run build && surge dist --domain hello-node.surge.sh ",
-    "prepare": "husky install && dumi setup"
+    "surge": "npm run build && surge dist --domain hello-node.surge.sh",
+    "prepare": "dumi setup"
   },
   "authors": [
     "jiandanaiyici"
@@ -26,7 +26,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
-    "dumi": "^2.0.0-rc.0",
+    "dumi": "^2.0.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"

@@ -1,8 +1,6 @@
 ---
 title: npm link
 toc: null
-group:
-  title: CLI
 ---
 
 <Badge>描述: </Badge>试想一下在现在的项目管理中大多使用的包基于 `npm` 进行管理, 当使用某一个包或者开发一个包有些许问题时, 可以通过 `npm link` 的方法链接到全局的 `node_modules`下
