@@ -264,7 +264,7 @@ app.use(
 app.use(bodyParser({}));
 ```
 
-![queryUserInfo.png](https://cdn.nlark.com/yuque/0/2019/png/106721/1567870536447-f2748f58-c997-472f-86a2-a84240e77c10.png#align=left&display=inline&height=363&name=queryUserInfo.png&originHeight=454&originWidth=934&size=40269&status=done&style=none&width=746#height=454&id=TRqFV&originHeight=454&originWidth=934&originalType=binary&status=done&style=none&width=934)
+![queryUserInfo.png](./images/queryUserInfo.png)
 **到此就先告一段落, 未完待续**
 
 ---

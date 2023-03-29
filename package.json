@@ -6,7 +6,7 @@
     "start": "npm run dev",
     "dev": "dumi dev",
     "build": "dumi build",
-    "surge": "npm run build && surge dist --domain hello-node.surge.sh",
+    "deploy": "npm run build && surge dist --domain hello-node.surge.sh",
     "prepare": "dumi setup"
   },
   "license": "MIT",

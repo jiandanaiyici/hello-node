@@ -9,5 +9,6 @@
 			"@@/*": [".dumi/tmp/*"]
 		}
 	},
+	"include": [".dumi/**/*", ".dumirc.ts"],
 	"exclude": ["node_modules", "dist", "typings"]
 }
