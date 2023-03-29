@@ -2,7 +2,7 @@
 title: package.json 解读
 toc: content
 nav:
-  title: NPM
+  title: npm
   order: 0
 ---
 
